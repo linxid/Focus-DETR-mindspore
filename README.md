@@ -12,7 +12,7 @@ our Focus-DETR gets comparable complexity while achieving 50.4AP (+2.2) on COCO.
 
 
 
-## [Model architecture](#Model architecture)
+## [Model architecture](#contents)
 
 Our Focus-DETR comprises a backbone network, a Transformer encoder, and a Transformer decoder. We design a foreground token selector (FTS) based on top-down score modulations across multi-scale features. And the selected tokens by a multi-category score predictor and foreground tokens go through the Pyramid Encoder to remedy the limitation of deformable attention in distant information mixing.
 
