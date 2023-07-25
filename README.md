@@ -7,8 +7,7 @@ Authors: Dehua Zheng, Wenhui Dong, Hailin Hu, Xinghao Chen, Yunhe Wang.
 [[`arXiv`](https://arxiv.org/abs/2307.12612)] [[`BibTeX`](#citing-focus-detr)]
 
 
-Focus-DETR is a model that focuses attention on more informative tokens for a better trade-off between computation efficiency and model accuracy. Compared with the state-of-the-art sparse transformed-based detector under the same setting,
-our Focus-DETR gets comparable complexity while achieving 50.4AP (+2.2) on COCO.
+Focus-DETR is a model that focuses attention on more informative tokens for a better trade-off between computation efficiency and model accuracy. Compared with the state-of-the-art sparse transformed-based detector under the same setting, our Focus-DETR gets comparable complexity while achieving 50.4AP (+2.2) on COCO.
 
 
 
