@@ -1,13 +1,18 @@
 # [Focus-DETR](#contents)
 
+This is the official implementation of the paper "Less is More: Focus Attention for Efficient DETR"
+
+Authors: Dehua Zheng, Wenhui Dong, Hailin Hu, Xinghao Chen, Yunhe Wang.
+
+[[`arXiv`](https://arxiv.org/abs/2307.12612)] [[`BibTeX`](#citing-focus-detr)]
+
+
 Focus-DETR is a model that focuses attention on more informative tokens for a better trade-off between computation efficiency and model accuracy. Compared with the state-of-the-art sparse transformed-based detector under the same setting,
 our Focus-DETR gets comparable complexity while achieving 50.4AP (+2.2) on COCO.
 
-> Paper: Less is More: Focus Attention for Efficient DETR.
-> Dehua Zheng,  Wenhui Dong, Hailin Hu, Xinghao Chen, Yunhe Wang.
 
 
-## [Model architecture](#contents)
+## [Model architecture](#Model architecture)
 
 Our Focus-DETR comprises a backbone network, a Transformer encoder, and a Transformer decoder. We design a foreground token selector (FTS) based on top-down score modulations across multi-scale features. And the selected tokens by a multi-category score predictor and foreground tokens go through the Pyramid Encoder to remedy the limitation of deformable attention in distant information mixing.
 
@@ -78,6 +83,21 @@ IoU metric: bbox
  Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.878
 ```
 
+
 ## [ModelZoo Homepage](#contents)
 
 Please check the official [homepage](https://gitee.com/mindspore/models).
+
+## Citing Focus-DETR
+If you find our work helpful for your research, please consider citing the following BibTeX entry.
+
+```BibTex
+@misc{zheng2023more,
+      title={Less is More: Focus Attention for Efficient DETR}, 
+      author={Dehua Zheng and Wenhui Dong and Hailin Hu and Xinghao Chen and Yunhe Wang},
+      year={2023},
+      eprint={2307.12612},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
