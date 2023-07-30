@@ -8,18 +8,19 @@ Authors: Dehua Zheng, Wenhui Dong, Hailin Hu, Xinghao Chen, Yunhe Wang.
 Focus-DETR is a model that focuses attention on more informative tokens for a better trade-off between computation efficiency and model accuracy. Compared with the state-of-the-art sparse transformed-based detector under the same setting, our Focus-DETR gets comparable complexity while achieving 50.4AP (+2.2) on COCO.
 
 <div align="center">
-  <img src="./assets/model_arch.png"/>
+  <img src="./figs/model_arch.PNG"/>
 </div><br/>
 
 ## Table of Contents
 - [Focus-DETR](#focus-detr)
 - [Table of Contents](#table-of-contents)
 - [Main Results with Pretrained Models](#main-results-with-pretrained-models)
-    - [Pretrained focus\_detr with ResNet Backbone](#pretrained-focus_detr-with-resnet-backbone)
+      - [Pretrained focus\_detr with ResNet Backbone](#pretrained-focus_detr-with-resnet-backbone)
     - [Pretrained focus\_detr with Swin-Transformer Backbone](#pretrained-focus_detr-with-swin-transformer-backbone)
 - [Installation](#installation)
 - [Training](#training)
 - [Evaluation](#evaluation)
+- [Citing Focus-DETR](#citing-focus-detr)
 
 ## Main Results with Pretrained Models
 
